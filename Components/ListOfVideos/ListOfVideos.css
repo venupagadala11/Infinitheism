@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Nunito+Sans:wght@300&family=Open+Sans&display=swap');
+
+.videoCard_container
+{
+    padding: 30px 0px;
+    font-family: 'Libre Caslon Display', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.videoLibrary_title
+{
+    font-family: LibreCaslonDisplay-Regular;
+    font-size: 40px;
+    color: #E3E3E3;
+    letter-spacing: 0;
+}
+.videoLibrary_videoCards
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

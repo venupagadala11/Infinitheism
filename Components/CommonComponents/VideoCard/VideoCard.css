@@ -1,0 +1,53 @@
+
+.videoCard_videoThumbNail {
+  width: 420px;
+  height: 230px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.videoCard_video-details {
+  padding: 0px 0px 20px 0px;
+  position: relative;
+  top: -20px;
+}
+.videoCard_title {
+  font-size: 25px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+.videoCard_desc {
+  font-size: 20px;
+  color: #97a8db;
+  letter-spacing: 0;
+}
+.videoCard_downloadIcon {
+  float: right;
+  cursor: pointer;
+}
+
+.videoCard_progressBar {
+  position: relative;
+  top: -23px;
+}
+progress {
+  appearance: none; /* Remove the default appearance */
+  height: 4px; /* Set the height of the progress tag */
+  border-radius: 10px; /* Add some rounded corners */
+  background-color: #ddd; /* Set a light gray background */
+}
+
+/* Set the color of the progress bar */
+progress::-webkit-progress-value {
+  background-color: red;
+}
+
+progress::-moz-progress-bar {
+  background-color: red;
+}
+
+progress::-ms-fill {
+  background-color: red;
+}

@@ -1,0 +1,45 @@
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    align-items: center;
+}
+.Header_navbars{
+    display:flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #164085;
+    font-size: 14px;
+    font-weight: 900;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.Header_navTab:hover{
+    color: #d51c24;
+    cursor: pointer;
+
+}
+.Header_navTab:active{
+    color: #d51c24;
+
+}
+.Header_logo:hover{
+    cursor: pointer;
+}
+.link
+{
+    text-decoration: none;
+}
+.active-link{
+    color: #d51c24;
+}
+.header_menu_bar.css-i4bv87-MuiSvgIcon-root{
+   width: 30px;
+   height: 30px;
+    cursor: pointer;
+    color: #164085;
+}
+.header_menu_bar.css-i4bv87-MuiSvgIcon-root:hover{
+    color: #d51c24;
+}

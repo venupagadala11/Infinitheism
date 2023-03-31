@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.videoLibrary
+{
+    padding: 30px;
+    background-color: rgb(61, 61, 179);
+    color:white;
+    font-family: 'Open Sans', sans-serif; 
+    background: url(../../../Assets/Images/infiminuteImgs/infinibackground.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

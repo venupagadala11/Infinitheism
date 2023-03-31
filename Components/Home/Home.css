@@ -1,0 +1,28 @@
+.Home_part{
+    background-image: url('../../Assets/Images/Mahatriahomebg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: calc(100vh - 75.33px);
+}
+.home_rightpart_text{
+    float: right;
+    width: 40%;
+    padding-top: 120px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.home_header{
+    font-size: 19px;
+    color: red;
+}
+.home_title_img{
+    text-align: center;
+}
+.home_description
+{
+    line-height: 25px;
+    font-weight: 800;
+}
